@@ -1,0 +1,22 @@
+# Bỏ qua thư mục virtual environment (thư mục chứa các gói thư viện cài đặt riêng cho project)
+.venv/
+venv/
+ENV/
+env/
+
+# Bỏ qua file .env (chứa các biến môi trường nhạy cảm như API keys, password)
+.env
+
+# Bỏ qua các file tạm thời hoặc biên dịch từ Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+
+# Bỏ qua các file tạm thời khác của hệ điều hành và IDE
+*.DS_Store  # MacOS
+Thumbs.db   # Windows
+.idea/      # IntelliJ-based IDEs
+.vscode/    # Visual Studio Code
+*.swp       # vim swap files
